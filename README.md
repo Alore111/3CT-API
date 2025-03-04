@@ -11,11 +11,11 @@
         根据查询类型选择其他的请求参数。
 
 ### type参数表
-| type           | 说明             | 其他参数                                                                                                                   | 返回内容     |
-|----------------|----------------|------------------------------------------------------------------------------------------------------------------------|----------|
-| getEkActById   | 根据二课活动ID查询活动信息 | `ActivityId`                                                                                                           | 活动简略详情   |
-| getEkActByKeys | 根据关键词查询活动信息    | `ActivityName` \| `ActivityType` \| `ActivityAddressAreaStr` \| `ActivityLevelText` \| `ModuleCodeText` \| `PageIndex` | 活动简略详情列表 |
-| getRunTrack    | 生成校园跑跑步轨迹      | `RunDistance` \| `RunSchoolSite`                                                                                       | 活动轨迹     |
+| type           | 说明             | 其他参数                                                                                                        | 返回内容     |
+|----------------|----------------|-------------------------------------------------------------------------------------------------------------|----------|
+| getEkActById   | 根据二课活动ID查询活动信息 | `ActivityId`                                                                                                | 活动简略详情   |
+| getEkActByKeys | 根据关键词查询活动信息    | `ActivityName` \| `ActivityType` \| `ActivityAddressArea` \| `ActivityLevel` \| `ModuleCode` \| `PageIndex` | 活动简略详情列表 |
+| getRunTrack    | 生成校园跑跑步轨迹      | `RunDistance` \| `RunSchoolSite`                                                                            | 活动轨迹     |
 
 ### 其他参数表
 | 参数名                 | 说明          | 类型     | 示例值                                  | 可选值                                                                                                  |
